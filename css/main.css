@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.logo{
+	height:auto;
+	background-image:url(../img/fub.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.logo1{
+  height:auto;
+	background-image:url(../img/fub.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	padding-bottom: 0px;
+}
+p {
+    color: #777;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h6 {
+    color: #777;
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body {
+background-color: #fff;
+}
+
+h2, .h2, h2
+a {
+  color: #303030;
+    font-family: 'Raleway',sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.att {
+  padding-top: 30px;
+	padding-bottom: 80px;
+  height: auto;
+}
+/* HEADER */
+
+.navbar-collapse {
+  max-height: 340px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: 'Raleway',sans-serif;
+  overflow-x: visible;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
+  font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.navbar .navbar-nav {
+display: inline-block;
+float: none !important;
+}
+
+.navbar .navbar-collapse {
+text-align: center;
+}
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.navbar{
+  margin-bottom:0px;
+}
+.navbar-default{
+  background-color: #963D5A;
+  border-color: #963D5A;
+  border-radius: 0px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+border-color:transparent;
+}
+.navbar-nav {
+  margin: 7.5px -15px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+.nav.navbar-nav.navbar-left li a{
+  background-color:#963D5A;
+  color:#fff;
+}
+/*
+#seta{
+	position: relative;
+	padding-left: 40%;
+	width: 60%;
+	height: 40%;
+}
+
+#seta{
+	color: gray;
+	text-shadow: 2px;
+	border:1px solid silver;
+	border-radius:6px
+}*/
+
+/*SLIDE THUMBNAILS*/
+/* carousel */
+.media-carousel
+{
+  margin-bottom: 0;
+  padding: 10px 40px 10px 40px;
+}
+
+/* Previous button  */
+.media-carousel .carousel-control.left
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #963D5A;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 90px;
+
+}
+/* Next button  */
+.media-carousel .carousel-control.right
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #963D5A;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 90px;
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 144px;
+  height: 225px
+}
+/* End carousel */
+
+.containa{
+
+		position: relative;
+
+}
+
+#imaga {
+display: block;
+width: auto;
+height: auto;
+}
+
+/*.middle {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0;
+transition: .5s ease;
+background-color: gray;
+border-radius: 4px;
+}*/
+/*
+.containa:hover .middle {
+opacity: 0.8;
+
+}
+.text {
+color: purple;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}*/
+
+/*body {
+			padding:0px;
+			margin:0px;
+			width: 100%;
+			height: 100%;
+}*/
+		/*#menu ul {
+
+			padding: 0% 33%;
+			margin: 0%;
+			float: right;
+			width: 100%;
+			background-color:#EDEDED;
+			list-style:none;
+			font:80% Tahoma;
+		}
+
+		#menu ul li { display: inline; }
+
+		#menu ul li a {
+			background-color:#EDEDED;
+			color: #333;
+			text-decoration: none;
+			border-bottom:3px solid #EDEDED;
+			padding: 2px 10px;
+			float:left;
+		}
+
+		#menu ul li a:hover {
+			background-color:#D6D6D6;
+			color: #6D6D6D;
+			border-bottom:3px solid white;
+		}*/
+	/*.logo{
+		width: 100%;
+		height: 100%;
+	}
+
+	 h4{
+	 	color: red;
+		padding-left: -130px;
+		}*/
+
+
+
+		/*=========================
+		  Icons
+		 ================= */
+
+		/* footer social icons */
+		ul.social-network {
+			list-style: none;
+			display: inline;
+			margin-left:0 !important;
+			padding: 0;
+		}
+		ul.social-network li {
+			display: inline;
+			margin: 0 5px;
+		}
+
+
+		/* footer social icons */
+		.social-network a.icoRss:hover {
+			background-color: #F56505;
+		}
+		.social-network a.icoFacebook:hover {
+			background-color:#3B5998;
+		}
+		.social-network a.icoTwitter:hover {
+			background-color:#33ccff;
+		}
+		.social-network a.icoGoogle:hover {
+			background-color:#BD3518;
+		}
+		.social-network a.icoVimeo:hover {
+			background-color:#0590B8;
+		}
+		.social-network a.icoLinkedin:hover {
+			background-color:#007bb7;
+		}
+		.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+		.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+			color:#fff;
+		}
+		a.socialIcon:hover, .socialHoverClass {
+			color:#44BCDD;
+		}
+
+		.social-circle li a {
+			display:inline-block;
+			position:relative;
+			margin:0 auto 0 auto;
+			-moz-border-radius:50%;
+			-webkit-border-radius:50%;
+			border-radius:50%;
+			text-align:center;
+			width: 50px;
+			height: 50px;
+			font-size:20px;
+		}
+		.social-circle li i {
+			margin:0;
+			line-height:50px;
+			text-align: center;
+		}
+
+		.social-circle li a:hover i, .triggeredHover {
+			-moz-transform: rotate(360deg);
+			-webkit-transform: rotate(360deg);
+			-ms--transform: rotate(360deg);
+			transform: rotate(360deg);
+			-webkit-transition: all 0.2s;
+			-moz-transition: all 0.2s;
+			-o-transition: all 0.2s;
+			-ms-transition: all 0.2s;
+			transition: all 0.2s;
+		}
+		.social-circle i {
+			color: #fff;
+			-webkit-transition: all 0.8s;
+			-moz-transition: all 0.8s;
+			-o-transition: all 0.8s;
+			-ms-transition: all 0.8s;
+			transition: all 0.8s;
+		}
+
+		a {
+		 background-color: #D3D3D3;
+		}
+/* footer*/
+.box{
+    width:100%;
+    height:300px;
+    background-color:rgb(41, 128, 185);
+}
+/*footer*/
+/*redes sociais*/
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+.raw {
+height: 120px;
+width: 500px;
+margin: auto;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+/* perspective */
+
+.flip-container {
+perspective: 1000;
+margin: 10px;
+float: left;
+}
+/* turning on hover */
+
+.flip-container:hover .flipper {
+transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back {
+width: 100px;
+height: 100px;
+line-height: 100px;
+text-align: center;
+font-size: 30px;
+border-radius: 20px;
+}
+/* flipping speed here */
+
+.flipper {
+transition: 0.6s;
+transform-style: preserve-3d;
+position: relative;
+}
+/* making the the other side hidden while flipping */
+
+.front,
+.back {
+backface-visibility: hidden;
+position: absolute;
+top: 0;
+left: 0;
+}
+/* front side is in front of a back side */
+
+.front {
+z-index: 2;
+background-color: #8e8e8e;
+color: white;
+}
+/* back side */
+
+.back {
+transform: rotateY(180deg);
+background-color: lightblue;
+}
+
+.back p {
+font-size: 18px;
+margin-top: 0px;
+font-family: 'Kaushan Script', cursive;
+border: 1px solid white;
+border-radius: 20px;
+background-color: #333;
+color: white;
+}
+
+footer{
+	background: #310a44 none repeat scroll 0 0;
+	 border-top: 4px solid #310a44;
+	 margin: 0;
+	 padding: 70px;
+}
