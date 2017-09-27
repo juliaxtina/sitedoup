@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face {
+     font-family: StoneStick-FREE;
+     src: url(../fonts/StoneStick-FREE.otf);
+}
+
 .logo{
 	height:auto;
 	background-image:url(../img/fub.jpg);
@@ -9,12 +14,26 @@
 
 }
 .logo1{
-  height:auto;
-	background-image:url(../img/fub.jpg);
-	background-size:cover;
-	background-attachment: fixed;
-	padding-bottom: 0px;
+background-color: #430E5E;
+width: 100%;
+height: 65px;
+text-align: center;
 }
+.att-blog{
+	margin-top: 0;
+	font:45px StoneStick-FREE, sans-serif;
+	color: #fff;
+}
+.att-blog2{
+	/*margin-top: 0;
+	font:45px StoneStick-FREE, sans-serif;
+	color: #fff;
+	 background: -webkit-gradient(linear, left top, left bottom, from(#912F56), to(#310A44));
+		background: -moz-linear-gradient(top, #912F56, #310A44);
+		filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#912F56', EndColorStr='#310A44');*/
+
+}
+
 p {
     color: #777;
     font-family: 'Raleway',sans-serif;
@@ -32,6 +51,11 @@ h6 {
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.textarea{
+/*border-left: 4px solid #f35;
+margin-bottom: 20px;
+padding: 0px;*/
 }
 body {
 background-color: #fff;
@@ -54,7 +78,17 @@ a {
 .att {
   padding-top: 30px;
 	padding-bottom: 80px;
-  height: auto;
+}
+.att2{
+	padding-top: 30px;
+	padding-bottom: 80px;
+	background-color: #EAF2EF;
+	color: #000;
+	width: 100%;
+}
+.coluna{
+	padding-bottom: 70px;
+	padding-top: 25px;
 }
 /* HEADER */
 
@@ -110,6 +144,13 @@ border-color:transparent;
   background-color:#963D5A;
   color:#fff;
 }
+/*1 carousel*/
+.carousel-example-generic {
+	display: block;
+	max-width: 100%;
+	height: auto !important;
+}
+
 /*
 #seta{
 	position: relative;
@@ -178,7 +219,8 @@ border-color:transparent;
 .media-carousel img
 {
   width: 144px;
-  height: 225px
+  height: 225px;
+
 }
 /* End carousel */
 
@@ -269,93 +311,15 @@ transform: translate(-50%, -50%);
 		  Icons
 		 ================= */
 
-		/* footer social icons */
-		ul.social-network {
-			list-style: none;
-			display: inline;
-			margin-left:0 !important;
-			padding: 0;
-		}
-		ul.social-network li {
-			display: inline;
-			margin: 0 5px;
-		}
 
-
-		/* footer social icons */
-		.social-network a.icoRss:hover {
-			background-color: #F56505;
-		}
-		.social-network a.icoFacebook:hover {
-			background-color:#3B5998;
-		}
-		.social-network a.icoTwitter:hover {
-			background-color:#33ccff;
-		}
-		.social-network a.icoGoogle:hover {
-			background-color:#BD3518;
-		}
-		.social-network a.icoVimeo:hover {
-			background-color:#0590B8;
-		}
-		.social-network a.icoLinkedin:hover {
-			background-color:#007bb7;
-		}
-		.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-		.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
-			color:#fff;
-		}
-		a.socialIcon:hover, .socialHoverClass {
-			color:#44BCDD;
-		}
-
-		.social-circle li a {
-			display:inline-block;
-			position:relative;
-			margin:0 auto 0 auto;
-			-moz-border-radius:50%;
-			-webkit-border-radius:50%;
-			border-radius:50%;
-			text-align:center;
-			width: 50px;
-			height: 50px;
-			font-size:20px;
-		}
-		.social-circle li i {
-			margin:0;
-			line-height:50px;
-			text-align: center;
-		}
-
-		.social-circle li a:hover i, .triggeredHover {
-			-moz-transform: rotate(360deg);
-			-webkit-transform: rotate(360deg);
-			-ms--transform: rotate(360deg);
-			transform: rotate(360deg);
-			-webkit-transition: all 0.2s;
-			-moz-transition: all 0.2s;
-			-o-transition: all 0.2s;
-			-ms-transition: all 0.2s;
-			transition: all 0.2s;
-		}
-		.social-circle i {
-			color: #fff;
-			-webkit-transition: all 0.8s;
-			-moz-transition: all 0.8s;
-			-o-transition: all 0.8s;
-			-ms-transition: all 0.8s;
-			transition: all 0.8s;
-		}
-
+		 a .linky {
+			 padding-bottom: 20px;
+		 }
 		a {
 		 background-color: #D3D3D3;
 		}
 /* footer*/
-.box{
-    width:100%;
-    height:300px;
-    background-color:rgb(41, 128, 185);
-}
+
 /*footer*/
 /*redes sociais*/
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
@@ -437,5 +401,9 @@ footer{
 	background: #310a44 none repeat scroll 0 0;
 	 border-top: 4px solid #310a44;
 	 margin: 0;
-	 padding: 70px;
+	 padding: 100px;
+}
+
+/* RESPONSIVO*/
+@media screen and (max-width: 1024px) {
 }

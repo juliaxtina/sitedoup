@@ -1,60 +1,17 @@
+<center>
+  <div class="logo1">
+    <h1 class="att-blog"> Fique Por Dentro </h1>
+  </div>
+ </center>
 <footer>
 
 <!-- REDES SOCIAIS -->
 <div class="container">
   <div class="row">
-  <div class="col-md-12 text-center">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<div class="raw">
-<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-<div class="flipper">
-<div class="front">
-<img src="img/watt.png" width="30px" height="30px;" style="color:#fff;">
-</div>
-<div class="back">
-<p>wattpad</p>
-</div>
-</div>
-</div>
-
-<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-<div class="flipper">
-<div class="front">
-<i class="fa fa-facebook"></i>
-</div>
-<div class="back">
-<p>facebook</p>
-</div>
-</div>
-</div>
 
 
-<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-<div class="flipper">
-<div class="front">
-<i class="fa fa-instagram"></i>
-</div>
-<div class="back">
-<p>instagram</p>
 </div>
 </div>
-</div>
-
-<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-<div class="flipper">
-<div class="front">
-<i class="fa fa-twitter"></i>
-</div>
-<div class="back">
-<p>twitter</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
 <!--fim redes sociais-->
 </footer>
 

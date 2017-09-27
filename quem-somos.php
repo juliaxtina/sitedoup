@@ -1,26 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <?php include ("partials/head.php"); ?>
-<script type="javascript">
-$(document).ready(function() {
-  $('#myCarousel').carousel({
-    interval: 10000
-  })
-  $('#media').carousel({
-  pause: true,
-  interval: false,
-});
-});
-</script>
 <body>
 	<?php include ("partials/header.php"); ?>
 	<!-- LINHA ATUALIZAÇÕES-->
 <div class="container-fluid">
     <div class="row">
-
  <!-- Carousel -->
-
 <!-- FIMATUALIZAÇÕES -->
 <div class="container">
 <div class="row">
@@ -29,27 +15,54 @@ $(document).ready(function() {
   <div class="quemsomos">
     <h6 align="center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt, odio in facilisis luctus, arcu urna bibendum enim, a sollicitudin turpis orci a ante. Morbi eu lacinia dolor. Pellentesque mattis volutpat tincidunt. Mauris facilisis urna facilisis ligula gravida, ut vehicula libero pretium. Aenean orci nibh, eleifend in sapien suscipit, tempor elementum tortor. Aenean tincidunt a felis in tempor. Ut mi tortor, ullamcorper sit amet tempus eget, sodales eu augue. Nunc bibendum lectus arcu. Mauris a laoreet neque. Nam condimentum lacus a bibendum auctor. Mauris sit amet sem posuere, rutrum enim id, accumsan odio. Etiam consequat, nibh sed suscipit vestibulum, ex dui interdum nulla, nec maximus ex metus at orci.
     </h6>
-    <div class="col-md-12">
-            <div class="profile">
+    <div class="row">
+
+    <div class="col-xs-12">
+            <div class="profile" style="padding: 80px;">
                 <div class="row">
+                  <a href="https://www.wattpad.com/user/triadrios" target="_blank" class="linky">
+                  <div class="col-md-2">
+                    <img src="https://a.wattpad.com/useravatar/triadrios.128.367637.jpg" alt="" width="150px" height="150px" class="img-circle img-responsive" />
+                  </div>
+                  </a>
+
+                  <a href="https://www.wattpad.com/user/triadrios" target="_blank" class="linky">
                   <div class="col-md-2">
                     <img src="http://placehold.it/150" alt="" class="img-circle img-responsive" />
                   </div>
+                </a>
+
+                <a href="https://www.wattpad.com/user/triadrios" target="_blank" class="linky">
                   <div class="col-md-2">
-                      </BR>
-                    <h3><b></b> <strong>Jonathan Lim</strong></b></h3>
-                    <h4>COMPANY NAME</h4>
-                    </div>
-                     <div class="col-md-2">
-                         </br>
-                         <center>
-                     </center>
+                    <img src="http://placehold.it/150" alt="" class="img-circle img-responsive" />
                   </div>
+                </a>
+
+                <a href="https://www.wattpad.com/user/triadrios" target="_blank" class="linky">
+                  <div class="col-md-2">
+                    <img src="http://placehold.it/150" alt="" class="img-circle img-responsive" />
+                  </div>
+                </a>
+
+                <a href="https://www.wattpad.com/user/triadrios" target="_blank" class="linky">
+                  <div class="col-md-2">
+                    <img src="http://placehold.it/150" alt="" class="img-circle img-responsive" />
+                  </div>
+                </a>
+
+                <a href="https://www.wattpad.com/user/triadrios" target="_blank" class="linky">
+                  <div class="col-md-2">
+                    <img src="http://placehold.it/150" alt="" class="img-circle img-responsive" />
+                  </div>
+                </a>
+                  
+
                 </div>
             </div>
         </div>
       </div>
   </div>
+</div>
   </div>
 </div>
 
@@ -110,12 +123,6 @@ $(document).ready(function() {
 </div> -->
 
 <!-- FIM LISTA ATT -->
-
-<center>
-  <div class="logo1">
-  <img src="img/fiquepordentro.jpg" alt="" class="img-responsive">
-  </div>
- </center>
 
 
 <?php include ("partials/footer.php"); ?>

@@ -1,5 +1,5 @@
 <div class="navbar navbar-default navbar-top">
-  <div class="container">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <i class="fa fa-bars" style="color: #fff" aria-hidden="true"></i> </button>
     </div>
